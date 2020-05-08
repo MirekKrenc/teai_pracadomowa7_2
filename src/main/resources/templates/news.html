@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>News</title>
+</head>
+<body>
+
+<div class="container-fluid">
+    <h3>Dzisiejsze wiadomości dnia</h3>
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+        <tr class="d-flex">
+            <th class="col-2" scope="col">Autor</th>
+            <th class="col-2" scope="col">Tytuł</th>
+            <th class="col-4" scope="col">Zawartość artykułu</th>
+            <th class="col-1" scope="col">URL do materiału</th>
+            <th class="col-3" scope="col">Zdjęcie</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr class="d-flex" th:each="news: ${newsy}">
+            <td class="col-2" width="50px" th:text="${news.getAuthor()}"></td>
+            <td class="col-2"th:text="${news.getDescription()}"></td>
+            <td class="col-4" th:text="${news.getTitle()}"></td>
+            <td class="col-1"><a class="btn btn-info btn-sm" th:href="@{${news.getUrl()}}" target="_blank">Kliknij po więcej ...</a></td>
+            <td class="col-3"><img class="img-thumbnail" th:src="@{${news.getUrlToImage()}}" /></td>
+        </tr>
+    </tbody>
+
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,270 @@
+2. Napisz aplikacje, która pobiera z wybranego API newsy, a następnie zapisuje je do bazy danych.
+Utwórz GUI, które umożliwa na przeglądanie newsów i ich edycje.
+
+
+{
+    "status": "ok",
+    "totalResults": 30,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Tvn24.pl"
+            },
+            "author": "TVN METEO",
+            "title": "Asteroida zbliżyła się do Ziemi. NASA śledzi ją od 22 lat - TVN Meteo",
+            "description": "Do Ziemi zbliżyła się asteroida 52768 (1998 OR2). Ze względu na swoje rozmiary została uznana za potencjalne zagrożenie.",
+            "url": "https://tvnmeteo.tvn24.pl/informacje-pogoda/swiat,27/asteroida-zblizyla-sie-do-ziemi-nasa-sledzi-ja-od-22-lat,320489,1,0.html",
+            "urlToImage": "https://r-scale-6c.dcs.redcdn.pl/scale/o2/tvn/web-content/m/p5/i/84ddfb34126fc3a48ee38d7044e87276/fc13a8ff-3a5d-4af6-b104-0736b21ca000.jpg?type=1&quality=80&srcmode=0&srcx=0/1&srcy=0/1&srcw=1/1&srch=101/100&dstw=320&dsth=180",
+            "publishedAt": "2020-04-29T10:11:09Z",
+            "content": "Asteroida, która przeleciaa w okolicach naszej planety, to 52768 (1998 OR2). Po raz pierwszy zauwaono j w 1998 roku, a jej rednic oszacowano na 1,9 kilometra. Teraz znalaza si w odlegoci ponad 6 milionów kilometrów od Ziemi (16 razy wikszej ni odlego midzy Zi… [+2267 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Interia.pl"
+            },
+            "author": null,
+            "title": "Skoki narciarskie. Andreas Kuettel przed zdobyciem tytułu mistrza świata oświadczył się Polce - Interia",
+            "description": "Kliknij i zobacz więcej.",
+            "url": "https://sport.interia.pl/skoki-narciarskie/news-skoki-narciarskie-andreas-kuettel-przed-zdobyciem-tytulu-mis,nId,4467305",
+            "urlToImage": "https://i.iplsc.com/-/000A2ND5ABOKTDCP-C411.jpg",
+            "publishedAt": "2020-04-29T10:10:59Z",
+            "content": "W 2009 roku szwajcarski skoczek Andreas Kuettel osign yciowy sukces, zdobywajc mistrzostwo wiata na duej skoczni w Libercu. W rodzimej prasie ujawnia, e rankiem tego dnia... owiadczy si Polce, swojej obecnej onie, Dorocie!\r\nWideoKamil Stoch dla Interii: W dal… [+1759 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Onet.pl"
+            },
+            "author": null,
+            "title": "Koronawirus w sporcie. Kiedy powrót Bunedsligi? Nowe zalecenia dla piłkarzy - Onet Sport",
+            "description": "Władze Bundesligi robią wszystko, by jak najszybciej wrócić do gry i zapewnić piłkarzom bezpieczeństwo. Niemiecki \"Bild\" ujawnia nowe zalecenia dla zawodników, w przypadku wznowienia rozgrywek.",
+            "url": "https://www.onet.pl",
+            "urlToImage": "https://ocdn.eu/images/pulscms/OWU7MDA_/20ec3038d7c7d1637e04da3395de954d.png",
+            "publishedAt": "2020-04-29T09:59:16Z",
+            "content": "Wadze Bundesligi robi wszystko, by jak najszybciej wróci do gry i zapewni pikarzom bezpieczestwo. Niemiecki \"Bild\" ujawnia nowe zalecenia dla zawodników, w przypadku wznowienia rozgrywek.\r\nJeszcze kilka dni temu w Niemczech zakadano, e Bundeslig uda si wznowi… [+1038 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Onet.pl"
+            },
+            "author": "Jakub Krupa",
+            "title": "Boris Johnson ma kolejne dziecko! Carrie Symonds urodziła syna - Wiadomości - Onet",
+            "description": "Partnerka brytyjskiego premiera Borisa Johnsona Carrie Symonds urodziła syna. Informację podało dziś rano Downing Street. To szóste lub siódme dziecko charyzmatycznego polityka. Informacja o narodzinach \"Baby Borisa\" jest niespodzianką, bo według wcześniejszy…",
+            "url": "https://wiadomosci.onet.pl/swiat/boris-johnson-ma-kolejne-dziecko-carrie-symonds-urodzila-syna/w5hdnmg",
+            "urlToImage": "https://ocdn.eu/pulscms-transforms/1/KIuk9kpTURBXy9kYTUzYjljNTYzMmNlMDM0NDBjMDcwZDQ0MjRhYjJiZC5qcGeTlQMAzJ3NCGbNBLmTCaZlZmEzNGIGkwXNAjrNASyBoTAB/carrie-symonds-i-boris-johnson.jpg",
+            "publishedAt": "2020-04-29T09:57:08Z",
+            "content": "<ul><li>Narodziny syna z Symonds s zwieczeniem szalonego miesica w yciu Borisa Johnsona</li><li>Polityk wielokrotnie odmawia odpowiedzi na pytanie o to, ile ma cznie dzieci</li><li>Johnson prawdopodobnie nie bdzie móg dugo nacieszy si ojcostwem: przed jego rz… [+2393 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Rmf24.pl"
+            },
+            "author": null,
+            "title": "Otwarcie galerii handlowych, przedszkoli, żłobków: Premier ogłosił szczegóły II etapu luzowania obostrzeń [ZOBACZ] - RMF 24",
+            "description": "\"Od 6 maja chcemy dopuścić możliwość otwarcia żłobków i przedszkoli. (...) Od 4 maja otwieramy hotele i miejsca noclegowe (...). 4 maja będą również mogły być otwarte galerie handlowe\" - ogłosił premier Mateusz Morawiecki, przedstawiając na konferencji prasow…",
+            "url": "https://www.rmf24.pl/raporty/raport-koronawirus-z-chin/polska/news-otwarcie-galerii-handlowych-przedszkoli-zlobkow-premier-oglo,nId,4467265",
+            "urlToImage": "https://i.iplsc.com/-/000A2N1TDT57MK0B-C411.jpg",
+            "publishedAt": "2020-04-29T09:17:33Z",
+            "content": "\"Od 6 maja chcemy dopuci moliwo otwarcia obków i przedszkoli. (...) Od 4 maja otwieramy hotele i miejsca noclegowe (...). 4 maja bd równie mogy by otwarte galerie handlowe\" - ogosi premier Mateusz Morawiecki, przedstawiajc na konferencji prasowej szczegóy II … [+8496 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Dorzeczy.pl"
+            },
+            "author": null,
+            "title": "\"To nie jest odwaga, to egoizm\". Mocne wystąpienie Szumowskiego - Do Rzeczy",
+            "description": "Minister Szumowski zaapelował do Polaków, aby stosowali się do rządowych zaleceń. Szef resortu zdrowia skrytykował osoby, które nie stosują się do obostrzeń i nie noszą maseczek.",
+            "url": "https://www.dorzeczy.pl/kraj/138298/to-nie-jest-odwaga-to-egoizm-mocne-wystapienie-szumowskiego.html",
+            "urlToImage": "https://dorzeczy.pl/_thumb/97/b0/92594ea265a171770e012d3e7860.jpeg",
+            "publishedAt": "2020-04-29T08:57:39Z",
+            "content": "Wczoraj jechaem do pracy rowerem i widziaem, e ogromna rzesza ludzi albo nie ma maski w ogóle, albo ma je zsunite na brod. To nie jest odwaga tylko lekcewaenie tego, e mona zarazi innych, to jest objaw egoizmu. Dlatego prosz w przestrzeni publicznej nomy te m… [+1012 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Businessinsider.com.pl"
+            },
+            "author": null,
+            "title": "Szef PFR: Finansowy plan pomocy dla firm jest na ostatniej prostej. Trafi do nich 100 mld zł - BusinessInsider",
+            "description": "- Wszyscy przedsiębiorcy będą mogli skorzystać z subwencji finansowych w banku, w którym mają rachunek. Mam nadzieję, że do końca dnia program zostanie uruchomiony. W ciągu kilku dni środki powinny trafić na rachunki firm - mówił w Onet Rano Paweł Borys, szef…",
+            "url": "https://businessinsider.com.pl/firmy/dla-firm/pomoc-dla-firm-w-czasie-koronawirusa-jak-mozna-ja-uzyskac/3m12jqw",
+            "urlToImage": "https://ocdn.eu/pulscms-transforms/1/cc_k9kpTURBXy8yYTgzYWM1Y2JjNzMwZmM2NzVmMzg5YzdmNjM3NjM4Mi5qcGeSlQMASs0HgM0D7pMFzQNXzQHCgaExAQ",
+            "publishedAt": "2020-04-29T08:06:29Z",
+            "content": "Biznes na wasn rk. Inwestorka radzi, kiedy warto podj ryzyko"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Onet.pl"
+            },
+            "author": null,
+            "title": "Kontrterroryści z całej Polski szukają Kacperka w rzece. Co mogło się stać? - fakt.pl",
+            "description": "Dziś o godzinie 8. rano rozpoczął się trzeci dzień poszukiwań 3,5-letniego Kaperka Błażejowskiego z Nowogrodźca. Środowe działania skupiają się przede wszystkim na korycie rzeki, dokładnie już przeczesanym przez wyspecjalizowane ekipy z nowoczesnym sprzętem. …",
+            "url": "https://www.onet.pl",
+            "urlToImage": "https://ocdn.eu/images/pulscms/OWU7MDA_/20ec3038d7c7d1637e04da3395de954d.png",
+            "publishedAt": "2020-04-29T08:06:26Z",
+            "content": "Dzi o godzinie 8. rano rozpocz si trzeci dzie poszukiwa 3,5-letniego Kaperka Baejowskiego z Nowogrodca. rodowe dziaania skupiaj si przede wszystkim na korycie rzeki, dokadnie ju przeczesanym przez wyspecjalizowane ekipy z nowoczesnym sprztem. Dzi pod wod wesp… [+683 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Tvn24.pl"
+            },
+            "author": "adso",
+            "title": "Irrfan Khan nie żyje. Aktor Bollywood znany \"Slumdog. Milioner z ulicy\" miał 53 lata - TVN24",
+            "description": "Jeden z najsłynniejszych aktorów świata, gwiazda Bollywood i wielu hollywoodzkich produkcji, Irrfan Khan nie żyje. Miał 53 lata.",
+            "url": "https://tvn24.pl/kultura-i-styl/irrfan-khan-nie-zyje-aktor-bollywood-znany-slumdog-milioner-z-ulicy-mial-53-lata-4569480",
+            "urlToImage": "https://tvn24.pl/najnowsze/cdn-zdjecie-ngqxtb-irrfan-khan-mial-53-lata-4569462/alternates/LANDSCAPE_1280",
+            "publishedAt": "2020-04-29T08:01:27Z",
+            "content": "Jeden z najsynniejszych aktorów wiata, gwiazda Bollywood i wielu hollywoodzkich produkcji, Irrfan Khan nie yje. Mia 53 lata. \r\nAktor od dwóch lat zmaga si z rakiem. W 2018 roku stwierdzono u niego guza endokrynnego - bardzo rzadk odmian nowotworu atakujcego k… [+964 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gazeta.pl"
+            },
+            "author": "UZ",
+            "title": "Nowogrodziec. Wznowiono poszukiwania trzyletniego Kacpra Błażejowskiego - Wiadomosci Gazeta.pl",
+            "description": "W środę o poranku policja wznowiła poszukiwania trzyletniego Kacpra Błażejowskiego z Nowogrodźca (woj. dolnośląskie). Chłopiec zaginął w poniedziałek 27 kwietnia. Niewykluczone, że wpadł do rzeki. Wtorkowa akcja nie przyniosła rezultatów.",
+            "url": "https://wiadomosci.gazeta.pl/wiadomosci/7,114883,25906780,nowogrodziec-wznowiono-poszukiwania-trzyletniego-kacpra-blazejowskiego.html",
+            "urlToImage": "https://bi.im-g.pl/im/b8/b4/18/z25903288IER,Nowogrodziec--Zaginal-trzyipolletni-Kacper-Blazejo.jpg",
+            "publishedAt": "2020-04-29T07:33:00Z",
+            "content": "Rodzina Kacpra Błażejowskiego zgłosiła zaginięcie dziecka w poniedziałek przed godziną 19. W poszukiwania chłopca zaangażowali się m.in. policjanci z Bolesławca oraz płetwonurkowie. W chwili zaginięcia trzyletni Kacper przebywał z ojcem na działce w pobliżu r… [+1157 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Www.se.pl"
+            },
+            "author": null,
+            "title": "Kim Dong Un jest sparaliżowany?! Zbiegły dyplomata ujawnia - SuperBiz.SE.pl",
+            "description": "Szokujące doniesienia na temat stanu zdrowia Kim Dzong Una (36 l.)! Dyplomata zbiegły z Korei Północnej ujawnił telewizji CNN, jakie dokładnie objawy ma północn...",
+            "url": "https://www.se.pl/wiadomosci/swiat/kim-dong-un-jest-sparalizowany-zbiegly-dyplomata-ujawnia-aa-4x9T-YjNL-jgta.html",
+            "urlToImage": "https://cdn.galleries.smcloud.net/t/galleries/gf-LwDL-utoW-6FKW_kim-dzong-un-1920x1080-nocrop.jpg",
+            "publishedAt": "2020-04-29T07:15:16Z",
+            "content": "Szokujce doniesienia na temat stanu zdrowia Kim Dzong Una (36 l.)! Dyplomata zbiegy z Korei Pónocnej ujawni telewizji CNN, jakie dokadnie objawy ma pónocnokoreaski dyktator, o którego stanie kra po wiecie sprzeczne informacje. Podobno Kim yje, ale jest ciko c… [+1140 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Onet.pl"
+            },
+            "author": "Podróże Onet",
+            "title": "Koronawirus w Polsce. Wakacje indywidualne nie będą problemem. Co z grupowymi? - Onet",
+            "description": "Koronawirus w Polsce spowodował wiele zmian w życiu codziennym i bez wątpienia zmieni sposób wypoczynku. Jednak, jak powiedział rzecznik rządu Piotr Müller wyjazdy indywidualne czy rodzinne nie będą problemem, ale te grupowe stoją pod znakiem zapytania. Dziś …",
+            "url": "https://podroze.onet.pl/aktualnosci/koronawirus-w-polsce-wakacje-indywidualne-nie-beda-problemem-co-z-grupowymi/fl8pbcy",
+            "urlToImage": "https://ocdn.eu/pulscms-transforms/1/J5Ek9kpTURBXy84N2NlYTNlZjVlODBmODRkYjhlMGY0ZTdmZmE2NTI4ZS5qcGeTlQMAzI7NEcHNCfyTCaY1OTY3NWYGkwXNAjrNASyBoTAB/koronawirus-w-polsce-wakacje-indywidualne-nie-beda-problemem-co-z-grupowymi.jpg",
+            "publishedAt": "2020-04-29T07:09:39Z",
+            "content": "O znoszenie restrykcji w zwizku z epidemi koronawirusa rzecznik rzdu by pytany w rod w Programie Pierwszym Polskiego Radia. Powiedzia, e najblisze zmiany maj dotyczy hoteli i innych miejsc noclegowych, otwarcia marketów budowlanych w weekendy czy funkcjonowan… [+1724 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Dorzeczy.pl"
+            },
+            "author": null,
+            "title": "Koniec urzędowania pierwszej prezes SN. Gersdorf i tak zostaje - Do Rzeczy",
+            "description": "Czwartek 30 kwietnia jest ostatnim dniem urzędowania obecnej pierwszej prezes. Profesor Małgorzata Gersdorf zostaje w Sądzie Najwyższym, tyle że już jako zwykły sędzia – pisze \"Rzeczpospolita\".",
+            "url": "https://www.dorzeczy.pl/kraj/138282/koniec-urzedowania-pierwszej-prezes-sn-gersdorf-i-tak-zostaje.html",
+            "urlToImage": "https://www.dorzeczy.pl/_thumb/4b/1f/5f8971bfefca16e58b7c40c514be.jpeg",
+            "publishedAt": "2020-04-29T07:09:06Z",
+            "content": "W czwartek odejdzie w stan spoczynku równie trzech sdziów SN ze starego rozdania.\r\nKandydata na nastpc Magorzaty Gersdorf ma wskaza prezydent. Stao si tak dlatego, e pierwsza prezes SN, mimo, e pojawia si propozycja internetowego gosowania lub rozdzielenia sd… [+850 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Plotek.pl"
+            },
+            "author": "CW",
+            "title": "Małgorzata Rozenek myśli o przyszłości, a Majdan wyśmiewa jej hejterów. Fani się przyłączyli: Retusz jak nic - Plotek.pl",
+            "description": "Małgorzata Rozenek wrzuciła do sieci kolejne zdjęcia z zaokrąglonym brzuchem. Pod nimi wiele komentarzy, w tym jeden od jej męża. Wyśmiał zawistnych internautów.",
+            "url": "https://www.plotek.pl/plotek/7,154063,25906765,malgorzata-rozenek-pozuje-w-dresie-a-majdan-smieje-sie-z-jej.html",
+            "urlToImage": "https://bi.im-g.pl/im/63/b4/18/z25906787IER,Radoslaw-Majdan--Malgorzata-Rozenek.jpg",
+            "publishedAt": "2020-04-29T07:00:00Z",
+            "content": "Magorzata Rozenek ju niedugo przywita na wiecie swoje trzecie dziecko. Razem z Radosawem Majdanem staraa si o nie przez prawie trzy lata. Nie dziwi wic rado, któr paaj niemale na kadym zdjciu, wrzuconym przez nich do sieci. Niestety humor czsto staraj si pops… [+1345 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Wiadomosci.wp.pl"
+            },
+            "author": "oprac. Piotr Białczyk",
+            "title": "Wybory 2020. Afera w Poczcie Polskiej. Śledztwo przeniesione - Wirtualna Polska",
+            "description": "Poczta Polska okradziona na kwotę 20 mln złotych? Taką informację otrzymał senator KO Krzysztof Brejza i natychmiast przekazał ją pisemnie do premiera. Urzędnicza maszyna ruszyła, jednak jak się okazuje,",
+            "url": "https://wiadomosci.wp.pl/wybory-2020-afera-w-poczcie-polskiej-media-sledztwo-przeniesione-6505028438521473a",
+            "urlToImage": "https://v.wpimg.pl/MjkyOTU3YgsKGzlnekhvHklDbT08EWFIHlt1dnoDYlxfTTdgZwpiDAIVKiYwQyJEDAs6JDREPUQbFWA1JVpiHFpWKz0mQyELElYqOTdWKUVSTX8wNwQpU0ZOe2JsHnlaXEBibWVWfEcNSCs3NwcrDggbeGB3Tg==",
+            "publishedAt": "2020-04-29T06:51:00Z",
+            "content": "\"Wielka afera w Poczcie Polskiej), to obecnie najbardziej skrywana tajemnica pastwa PiS. System jest dziurawy jak durszlak, na skutek przejcia kodów wewntrznych Poczty ukradziono ok. 20 mln\" - napisa na Twitterze Krzysztof Brejza. Do popenienia przestpstwa mi… [+2009 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gazeta.pl"
+            },
+            "author": "mmz/ISBnews",
+            "title": "Rząd ma nowe prognozy. PKB Polski skurczy się o 3,4 proc. w tym roku, wzrośnie dług i deficyt - Gazeta.pl",
+            "description": "Gospodarka się skurczy, ale w przyszłym roku odbije w tempie mocniejszym od tegorocznego spadku - zakłada aktualizacja planu konwergencji. W dokumencie znalazły się też prognozy dotyczące inflacji.",
+            "url": "https://next.gazeta.pl/next/7,173953,25906529,rzad-ma-nowe-prognozy-pkb-polski-skurczy-sie-o-3-4-proc-w.html",
+            "urlToImage": "https://bi.im-g.pl/im/49/b4/18/z25906761IER,Premier-Mateusz-Morawiecki.jpg",
+            "publishedAt": "2020-04-29T06:25:00Z",
+            "content": "Rzd przyj we wtorek aktualizacj planu konwergencji (APK). To dokument, który co roku, do koca kwietnia, wysyamy do Komisji Europejskiej i Rady UE. Na jego podstawie - tak jak inne pastwa czonkowskie UE - dostajemy wytyczne dotyczce przyszorocznego budetu. Pla… [+3188 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fakt.pl"
+            },
+            "author": "snow",
+            "title": "Najnowsze informacje o pandemii koronawirusa w Polsce i na świecie. Relacja na żywo - fakt.pl",
+            "description": "Pandemia koronawirusa w Polsce i na świecie nie zwalnia tempa. - Mamy 370 osób, które wyzdrowiały. To pierwszy taki dzień, w którym możemy powiedzieć, że rzeczywiście jest przyrost osób, które szybcie...",
+            "url": "https://www.fakt.pl/wydarzenia/polska/najnowsze-informacje-o-pandemii-koronawirusa-w-polsce-i-na-swiecie-relacja-na-zywo/t6vev04",
+            "urlToImage": "https://ocdn.eu/pulscms-transforms/1/1vNktkuTURBXy82MTMxMDdiZi0zNmMzLTQxZGItOWJkMy0xMDYyNDI4OTdjYTkuanBlZ5KVAwAAzRByzQlAkwXNBLDNAnY",
+            "publishedAt": "2020-04-29T05:34:25Z",
+            "content": "W Polsce od pocztku pandemii COVID-19 potwierdzono 12 415 przypadków zakae koronawirusem. Nie yje 606 osób. W Polsce trwa spór odnonie organizacji wyborów korespondencyjnych. OBWE i Sd Najwyszy wyday na ich temat krytyczne opinie. Take szef Pastwowej Komisji … [+6742 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Wpolityce.pl"
+            },
+            "author": null,
+            "title": "Kiedy wejdzie w życie II etap znoszenia restrykcji? - wersja mobilna - wPolityce.pl",
+            "description": "\"Dziś, wstępnie ok. południa, premier Mateusz Morawiecki poinformuje o dacie wejścia w życie II etapu poluzowania obostrzeń i regulacji wprowadzonych w wyniku epidemii koronawirusa\".",
+            "url": "https://wpolityce.pl/spoleczenstwo/497914-kiedy-wejdzie-w-zycie-ii-etap-znoszenia-restrykcji",
+            "urlToImage": "https://media.wplm.pl/pictures/2020/04/29/828/502/ca04454da3b6483abc8f56be6df03a5d.jpeg",
+            "publishedAt": "2020-04-29T04:45:00Z",
+            "content": "W rod premier Mateusz Morawiecki poinformuje, kiedy zostanie wznowiona dziaalno m.in. hoteli i niektórych instytucji kultury, czyli kiedy wejdzie w ycie II etap znoszenia ogranicze spowodowanych epidemi koronawirusa. Nieoficjalnie - moliwe jest wczeniejsze ot… [+2110 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Onet.pl"
+            },
+            "author": null,
+            "title": "Wraca PKO Ekstraklasa: najważniejsze pytania o ligę - Ofsajd Onet",
+            "description": "Przy wznowieniu PKO Ekstraklasy były dyskusje nad dezynfekcją piłki, maseczkach w szatni, ale raził brak odpowiedzi na najważniejsze pytania. Spróbowaliśmy ich poszukać.",
+            "url": "https://www.onet.pl",
+            "urlToImage": "https://ocdn.eu/images/pulscms/OWU7MDA_/20ec3038d7c7d1637e04da3395de954d.png",
+            "publishedAt": "2020-04-29T04:42:45Z",
+            "content": "Przy wznowieniu PKO Ekstraklasy byy dyskusje nad dezynfekcj piki, maseczkach w szatni, ale razi brak odpowiedzi na najwaniejsze pytania. Spróbowalimy ich poszuka.\r\n<ul><li>W ostatni weekend maja wraca PKO Ekstraklasa</li><li>Wiele kwestii wci pozostaje niejas… [+108 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Www.se.pl"
+            },
+            "author": null,
+            "title": "Dramat Dody na kwarantannie: \"ZSZEDŁ MI BOTOKS!\". Tak teraz wygląda! Mamy zdjęcia - SuperBiz.SE.pl",
+            "description": "Doda (36 l.) to chodząca piękność. Kwarantanna i zamknięte salony kosmetyczne trochę ją jednak zmieniły. Z twarzy piosenkarki zniknęły przedłużone rzęsy i jak w...",
+            "url": "https://www.se.pl/wiadomosci/gwiazdy/dramat-dody-na-kwarantannie-zszedl-mi-botoks-tak-teraz-wyglada-mamy-zdjecia-aa-W4sq-sT9v-3Er1.html",
+            "urlToImage": "https://cdn.galleries.smcloud.net/t/galleries/gf-TPeB-14kG-Fq3p_doda-664x442-nocrop.jpg",
+            "publishedAt": "2020-04-29T04:25:11Z",
+            "content": "Doda (36 l.) to chodzca pikno. Kwarantanna i zamknite salony kosmetyczne troch j jednak zmieniy. Z twarzy piosenkarki znikny przeduone rzsy i jak wanie wyznaa, take botoks. Tak naturalna nie bya jeszcze nigdy.\r\nSeksowna wokalistka od niedawna stawia na natura… [+1061 chars]"
+        }
+    ]
+}
